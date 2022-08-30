@@ -8,7 +8,7 @@ public class LastName {
         Pattern pattern = Pattern.compile("^[A-Z][a-z]{3}$");
         if (lastName == null) {
             return false;
-        }
+    }
         Matcher matcher = pattern.matcher(lastName);
 
         return matcher.matches();

@@ -12,7 +12,7 @@ public class Email {
    }
         Matcher matcher = pattern.matcher(email);
         return matcher.matches();
-    }
+   }
 
     public static void main(String[] args) {
         String num = "abc.100@.com.com";
