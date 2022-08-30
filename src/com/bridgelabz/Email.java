@@ -16,7 +16,6 @@ public class Email {
 
     public static void main(String[] args) {
         String num = "abc.100@.com.com";
-        
         System.out.println(isEmail(num));
     }
 }
